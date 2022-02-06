@@ -59,6 +59,8 @@ def view():
 
 def add_credentials(aDomain, uName, pwd):
     credentialSeparator = "============================================="
+    # Replace C:\Users\Herman\Desktop\PManager\PMan.txt with your PATH
+    # e.g C:\Users\YOUR_NAME\Desktop\FILENAME.txt
     f = open(r"C:\Users\Herman\Desktop\PManager\PMan.txt", "a")
     f.write("Website: "+aDomain+"\n"+"Username: "+uName+"\n" +
             "Password: "+pwd+"\n"+credentialSeparator+"\n")
